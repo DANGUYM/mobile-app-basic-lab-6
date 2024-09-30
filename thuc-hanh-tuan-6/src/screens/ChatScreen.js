@@ -4,23 +4,50 @@ import { View, Text, Image, Button, FlatList, StyleSheet } from 'react-native';
 const data = [
   {
     id: '1',
-    title: 'Ca nấu lẩu, nấu mì mini...',
-    shop: 'Shop Devang',
-    image: 'https://example.com/image1.jpg', // URL hình ảnh
+    title: 'Cáp chuyển từ Cổng USB sang PS2...',
+    price: '69.900 đ',
+    image: '../img/usb.png',
+    rating: '⭐⭐⭐⭐⭐ (22)',
+
   },
   {
     id: '2',
-    title: '1KG KHÔ GÀ BƠ TỎI...',
-    shop: 'Shop LTD Food',
-    image: 'https://example.com/image2.jpg',
+    title: 'Cáp chuyển từ Cổng USB sang PS2...',
+    price: '69.900 đ',
+    image: '../img/cap.png',
+    rating: '⭐⭐⭐⭐⭐ (22)',
+
   },
   {
     id: '3',
-    title: 'Xe cần cẩu đa năng',
-    shop: 'Shop Thế giới đồ chơi',
-    image: 'https://example.com/image3.jpg',
+    title: 'Cáp chuyển từ Cổng USB sang PS2...',
+    price: '69.900 đ',
+    image: '../img/usb.png',
+    rating: '⭐⭐⭐⭐⭐ (22)',
+
   },
-  // Thêm các mục khác tương tự...
+  {
+    id: '4',
+    title: 'Cáp chuyển từ Cổng USB sang PS2...',
+    price: '69.900 đ',
+    rating: '⭐⭐⭐⭐⭐ (22)',
+    image: '../img/cap.png',
+  },
+  {
+    id: '5',
+    title: 'Cáp chuyển từ Cổng USB sang PS2...',
+    price: '69.900 đ',
+    image: '../img/usb.png',
+    rating: '⭐⭐⭐⭐⭐ (22)',
+
+  },
+  {
+    id: '6',
+    title: 'Cáp chuyển từ Cổng USB sang PS2...',
+    price: '69.900 đ',
+    image: '../img/cap.png',
+    rating: '⭐⭐⭐⭐⭐ (22)',
+  }
 ];
 
 const ChatScreen = () => {
